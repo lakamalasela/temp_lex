@@ -1,0 +1,50 @@
+/* start nav bar */
+
+.header_01 {
+    width: 100%;
+    position: fixed;
+    z-index: 9999;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo {
+    width: 200px;
+}
+
+.image {
+    padding-top: 15px;
+    position: absolute;
+}
+
+.navs {
+    text-align: right;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.header_01 nav {
+    position: relative;
+    float: right;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#tog {
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+
+.list {
+    padding-top: 10px;
+}
+
+@media screen and (max-width:500px) {
+    .list {
+        padding-top: 40px;
+    }
+}
+
+
+/* end nav bar */
