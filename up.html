@@ -12,6 +12,7 @@
     <script src="https://kit.fontawesome.com/d0af915d44.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Lex</title>
 </head>
 
@@ -150,7 +151,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <div class="card lk-card" style="max-width: 100%;">
+                    <div class="card lk-card" data-aos="zoom-in" style="max-width: 100%;">
                         <img width="100%;" class="card-img-top" src="asset/img/h1.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5>Design Only" or Design &#38 Build</h5>
@@ -164,7 +165,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card lk-card" style="max-width: 100%;">
+                    <div class="card lk-card" data-aos="zoom-in" style="max-width: 100%;">
                         <img class="card-img-top" src="asset/img/h2.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5>Quality Assured</h5>
@@ -177,7 +178,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card lk-card" style="max-width: 100%;">
+                    <div class="card lk-card" data-aos="zoom-in" style="max-width: 100%;">
                         <img width="100%;" class="card-img-top" src="asset/img/h3.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5>Competitive Rates</h5>
@@ -254,21 +255,21 @@
             </div>
             <div class="row">
                 <div class="col-md-4">
-                    <div class="blog-other">
+                    <div class="blog-other" data-aos="zoom-out">
                         <div class="newblog">
                             <img src="asset/img/p1.jpg" alt="">
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="blog-other">
+                    <div class="blog-other" data-aos="zoom-out">
                         <div class="newblog">
                             <img src="asset/img/p2.jpg" alt="">
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="blog-other">
+                    <div class="blog-other" data-aos="zoom-out">
                         <div class="newblog">
                             <img src="asset/img/p3.jpg" alt="">
                         </div>
@@ -327,7 +328,7 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <script>
         window.onscroll = function() {
@@ -344,6 +345,9 @@
                 header.classList.remove("sticky");
             }
         }
+    </script>
+    <script>
+        AOS.init();
     </script>
 
 </body>
